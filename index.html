@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>WRKINSILENCE - Official Website</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet">
+
+    <link rel="icon" href="https://i.ytimg.com/vi/dp6JK88OtRQ/maxresdefault.jpg">
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">WRKINSILENCE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://music.apple.com/us/artist/wrkinsilence/id1376911468">Apple Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://open.spotify.com/artist/0DTyvZXoxa0NDmCm1HWtUb?si=Ci-sMXJWRI6ebO7lm9JDvQs">Spotify</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://soundcloud.com/wrkinsilence">SoundCloud</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/channel/UCwzlCZrnFe0PrL1fgAtp_jQ?view_as=subscriber">YouTube</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://tidal.com/browse/artist/9792044">Tidal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:beatsforwrk@gmail.com">Email</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <div class="container">
+      <div id="rsvp">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="mt-4" style="text-align: center;">Sign Up</h2>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbyIr9mgOcdVHZ8GpR1rjYbbTtYuYBPBRkeiClvm60wsLLCxfvKg/exec">
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" name="name" class="form-control" id="name" placeholder="Enter First Name">
+        </div>
+
+        <div class="form-group">
+          <label for="birthday">Birthday *</label>
+          <input type="text" name="birthday" class="form-control" id="birthday" placeholder="Enter your birthday month and day (MM/DD)">
+        </div>
+
+        <div class="form-group">
+          <label for="cityAndState">City and State*</label>
+          <input type="text" name="cityAndState" class="form-control" id="cityAndState" placeholder="Enter your city and state">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" name="email" class="form-control" id="email" aria-describedby="emailAddress" placeholder="Enter Email Address">
+        </div>
+        <small id="" class="form-text text-muted">Fields marked with a * are required.</small>
+        <br>
+        <div style="text-align: center;"><button type="submit" class="btn btn-primary">Submit</button></div>
+      </form>
+      </div>
+
+      <div class="container">
+        <!-- Customise the Thankyou Message People See when they submit the form: -->
+        <div style="display:none;" id="thankyou_message" class="thank-you-message-styles">
+          <div class="icon-block">
+                </div>
+                <h4 id="contact-composer" class="font-styles scrollspy">RSVP Submitted.</h4>
+                <br>
+            <p class="thank-you-message-styles">
+              Thank you for your contact info fam! I got you locked in. I'll hit you up when I tour your city and will know when to wish you a happy birthday.
+            </p>
+        </div>
+      </div>
+
+    
+    <footer class="py-5 bg-dark">
+      <div class="container">
+      	<p class="m-0 text-center designed-by" style="position: relative; bottom: 20px;">© 2019 WRKINSILENCE</p>
+        <!-- <p class="m-0 text-center designed-by">All Rights Reserved</p> -->
+      </div>
+    </footer>
+    <br>
+
+    <!--FORM-->
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <!-- <script data-cfasync="false" type="text/javascript"
+    src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
+
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      $('.smooth-scroll[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    </script>
+
+  </body>
+
+</html>

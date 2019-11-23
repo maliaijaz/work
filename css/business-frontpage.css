@@ -1,0 +1,149 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('https://lh3.googleusercontent.com/4Vc3jvpaeoRhHk1XRSNRhq4alBlP363M1li-V9wNY5Ah7cN_KXmGUJ7ziJcrYVNKBrtuMne2m2p5DO5gKgdT6yY5cYSGqKiPX43FHenK1qwi59OioAhBGuVIXk4wtycQAfTOjTWRN4tugyQJ39vSpg32MGV8f8PYXqSZDv5bWTR7uGx8jgwMIdMk_4UQwezacQS8I0Sp9V2l_rKrbnMilEZTigBcjIrqwoZo91I0EP6jOYDbf8voLHb7rJ9GPrl9OhGXwVnCqguuQeQ0jxXYWv1V1MoeNbfFSsDQ3Qa-HDEli80vwikQaYkiJJb1FG1p-t4wSdsMJGsqW52Q_x-Nc0S3YaVcGu3yK2Oe0Tn1wVXcbesBgwWUk4VB8kmtvu7PVMEcNxthp_ve3mieVC4L2h7kgSYHIVLPrTl4JHIwYYawxNODpNdqRDfMLTKwaO8JPzkFlI2dR3hMDUG8GkYtPfNBNmsW6BQQ8SeWwpeZjHFwYOLB2bGqKzAgJuV-I32Nvv9suQUJbsA4sSvlCyXSAB460J5ZdslQ-r5x_MUzAQx6hfcYS20mDzDM2ePtPTGsu4bGpQRIz5qSex5DeXkeb4OV1n8MoKdOUY31MLg5N0Vor2njuf0BDwQCRRa1MOvFpQ9ib0I9m1Yp3_P9Nqwj4eHvY1FfrTJR=w1980-h1320-no') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.card {
+  height: 100%;
+}
+
+/* Style overrides */
+
+/* NAVBAR */
+
+.navbar-dark, bg-dark {
+  background-color: white !important;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar-light {
+  background-color: white !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: black !important;
+}
+
+.navbar-brand {
+  /*font-family: 'Kristi', cursive;*/
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+.aisha-maaz-cursive {
+  font-family: 'Kristi', cursive;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black !important;
+}
+
+.business-header {
+  min-height: 500px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+/* END NAVBAR */
+
+/* SAVE THE DATE SECTION */
+
+.mt-4, .m-0 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+abbr[data-original-title], abbr[title] {
+  text-decoration: none;
+}
+
+a.btn.btn-primary.btn-lg {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.email-styles {
+  color: black;
+}
+
+.bg-dark {
+  background-color: white !important;
+}
+
+.designed-by {
+  font-size: 10px;
+}
+
+a.ali {
+  color: #D3D3D3;
+}
+
+/* END */
+
+/* RSVP SECTION */
+.form-group > label {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+    color: black;
+     background-color: transparent; 
+    border-color: black;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background-color: #B79086;
+  border-color: black;
+  color: black;
+}
+
+.btn-primary:active {
+  background-color: #B79086;
+  border-color: black;
+  color: white;
+}
+
+.btn-primary:selected {
+  background-color: #B79086;
+  border-color: black;
+  color: white;
+}
